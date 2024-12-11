@@ -125,13 +125,11 @@ const form = document.getElementById("form");
 openButton.addEventListener("click", function () {
   openPopup();
   popupBg.classList.remove("hidden");
-  document.body.classList.add("no-scroll");
 });
 
 closeButton.addEventListener("click", function () {
   closePopup();
   popupBg.classList.add("hidden");
-  document.body.classList.remove("no-scroll");
 });
 function openPopup() {
   popupBg.style.display = "flex";
