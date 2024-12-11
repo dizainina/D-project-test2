@@ -260,7 +260,7 @@ a {
 }
 
 .heart.red {
-  content: url("/src/images/icons/favorit-red.png");
+  content: url("/images/icons/favorit-red.png");
 }
 
 .new_products-slide-theme {
